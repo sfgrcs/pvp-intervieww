@@ -1,17 +1,14 @@
-/* ====== General Styles ====== */
 body {
-  background-color: #1a1a1a; /* خلفية الموقع */
-  color: #ffffff; /* نصوص عامة */
+  background-color: #1a1a1a;
+  color: #ffffff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* ====== Header / Banner ====== */
 header {
   width: 100%;
   height: 200px;
-  background-image: url('banner.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -23,10 +20,9 @@ header img {
   height: 100px;
 }
 
-/* ====== Buttons ====== */
 button {
-  background-color: #dfdbbd; /* تم تغيير اللون الأحمر */
-  color: #fff;
+  background-color: #dfdbbd; /* اللون الجديد */
+  color: #000;
   border: none;
   padding: 12px 25px;
   border-radius: 8px;
@@ -39,7 +35,6 @@ button:hover {
   opacity: 0.8;
 }
 
-/* ====== Questions Section ====== */
 .questions {
   max-width: 800px;
   margin: 30px auto;
@@ -49,26 +44,24 @@ button:hover {
 }
 
 .questions h2 {
-  color: #dfdbbd; /* تم تغيير اللون الأحمر */
+  color: #dfdbbd;
   margin-bottom: 15px;
 }
 
-.questions p {
+.questions ol li {
   margin-bottom: 10px;
   line-height: 1.5;
 }
 
-/* ====== Footer ====== */
 footer {
   text-align: center;
   padding: 20px;
   background-color: #222222;
-  color: #dfdbbd; /* تم تغيير اللون الأحمر */
+  color: #dfdbbd;
 }
 
-/* ====== Misc ====== */
 a {
-  color: #dfdbbd; /* تم تغيير اللون الأحمر */
+  color: #dfdbbd;
   text-decoration: none;
 }
 
